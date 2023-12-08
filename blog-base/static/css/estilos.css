@@ -1,0 +1,12 @@
+.jtron-text {
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: cornflowerblue;
+  -webkit-text-stroke-width: 4px;
+  font-variant: small-caps;
+}
+.jtron-text-p {
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: whitesmoke;
+  -webkit-text-stroke-width: 2px;
+  font-variant: small-caps;
+}

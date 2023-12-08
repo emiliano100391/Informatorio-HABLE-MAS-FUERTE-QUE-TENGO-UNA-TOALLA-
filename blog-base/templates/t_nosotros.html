@@ -1,10 +1,28 @@
-{% extends 'base.html' %}
-{% load static %}
+{% extends 'base.html' %} {% load static %}
+<!--------------->
+{% block titulo %}NOSOTROS{% endblock titulo %} {% block contenido %}
+<h2 class="display-4 text-center fw-bold">NOSOTROS</h2>
 
-{% block titulo %}NOSOTROS{% endblock titulo %}
+<div class="container mt-5">
+  <p class="fs-5">
+    Antes que nada querido lector, estamos muy agradecidos por su visita, y por
+    elegirnos como su medio de información en tecnología.
+  </br> En <strong>True News</strong> nos apaciona la tecnología y la inteligencia artificial. 
+  Estamos constantemente aprendiendo sobre las últimas tendencias y desarrollos 
+  en estos campos, y queremos compartir nuestro conocimiento con el mundo. 
+</p>
+  <p class="fs-5">En nuestro blog, encontrarás artículos sobre una amplia gama de temas relacionados 
+con la tecnología e inteligencia artificial, incluyendo:
+<ul class="list-group" style="font-weight: 500;">
+	<li class="list-group-item">Noticias y análisis sobre las últimas tendencias</li>
+	<li class="list-group-item">Tutoriales y guías para aprender sobre nuevas tecnologías</li>
+	<li class="list-group-item">Reseñas de productos y servicios tecnológicos</li>
+	<li class="list-group-item">Historias y anécdotas sobre la tecnología</li>
+</ul>
+</p>
+<p class="fs-5">Además, nos interesa adentrarnos en los asuntos más peliagudos de estos temas... 
+	como las implicaciones éticas de su uso, los riesgos que ataña a la privacidad, 
+	sus posibles perjuicios para la sociedad, entre otros muchos ejes transversales.</p>
+</div>
 
-
-{% block contenido %}
-	<h2>HOLA SOY NOSOTROS</h2>
 {% endblock contenido %}
-
